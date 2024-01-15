@@ -1,8 +1,8 @@
 .body{
- width: 1600px;
- height: 7335px;
  margin: 50px 140px 150px 140px;
- padding: 25px;
+ padding: 125px;
+ font-family: 'Lato', sans-serif;
+ background-color: #F5F5F5;
  
  
  }
@@ -10,7 +10,7 @@
 
  .overlay-text{
   position: absolute;
-  top: 40%;
+  top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   color: #FFFFFF;
@@ -19,9 +19,11 @@
   border-radius: 10px;
   background: linear-gradient(180deg, #160538 0%, rgba(20, 2, 56, 0) 10%);
   font-size: 48px;
-  font-family: sans-serif;
+ 
  }
  
+  /* Discount section */
+
  .discount{
   text-align: center;
   margin-top: 130px;
@@ -50,9 +52,99 @@
  }
 
  
- .img-container2{
-       
-       margin-left: 180px;
-       margin-top: 50px;
 
+
+ .img-container2 img{
+  margin-left: 140px;
+  margin-right: auto;
+  margin-bottom: 50px;
+  margin-top: auto;
  }
+
+.banner-card{
+  position: relative;
+
+}       
+
+.banner-card img{
+ max-width: 100%;
+ height: auto;
+margin-left:50px;
+}
+
+
+.banner-title2{
+ position: absolute;
+ top: 40%;
+ left: 10%;
+ color: #FFFFFF;}
+ 
+ .banner-title2 h1{
+  font-family: Merriweather;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 900;
+  color: #FFFFFF;
+  margin-bottom: 20px;
+ }
+ .banner-title2 p{
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 500;
+  color: #FFFFFF;
+  margin-top: 0px;
+ 
+ }
+
+  .btn2{
+   text-align: center;
+   font-family: Inter;
+   font-size: 20px;
+   font-style: normal;
+   font-weight: 700;
+   line-height: normal;
+  }
+ 
+  .Event{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+    fill: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
+  }  
+
+.time-date{
+ align-items: center;
+ justify-content: center;
+}
+
+.products-container{
+ display: flex;
+ justify-content:space-evenly;
+ flex-direction:row;
+ flex-flow:wrap;
+ width: 100%;
+ max-height:fit-content;
+ margin-top: 100px;
+ flex-wrap: wrap;
+ padding: 5px;
+
+ 
+}
+
+
+.details-item{
+
+ text-align: left;
+ text-decoration: solid;
+ font-family: Inter;
+ margin-left: 50px;
+ margin-bottom: 20px;
+
+}
+.Newsletter{
+ text-align:justify;
+}
+.Newsletter1{
+ text-align: center;
+}
