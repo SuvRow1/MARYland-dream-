@@ -1,0 +1,58 @@
+.body{
+ width: 1600px;
+ height: 7335px;
+ margin: 50px 140px 150px 140px;
+ padding: 25px;
+ 
+ 
+ }
+ /* banner header starting  css styles */
+
+ .overlay-text{
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #FFFFFF;
+  font-weight: 800;
+  text-align: center;
+  border-radius: 10px;
+  background: linear-gradient(180deg, #160538 0%, rgba(20, 2, 56, 0) 10%);
+  font-size: 48px;
+  font-family: sans-serif;
+ }
+ 
+ .discount{
+  text-align: center;
+  margin-top: 130px;
+
+ }
+ .discount-amount{
+  font-size: 100px;
+  font-weight: 800;
+  color:#FF0000;
+  text-align: center;
+  margin-top: 130px;
+ }
+ .discount-title{
+  text-align: center;
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+  color: #FF0000;
+ }
+ .discount-items{
+  text-align: center;
+  font-family: Inter;
+  font-size: 48px;
+  font-weight: 700;
+  
+ }
+
+ 
+ .img-container2{
+       
+       margin-left: 180px;
+       margin-top: 50px;
+
+ }
