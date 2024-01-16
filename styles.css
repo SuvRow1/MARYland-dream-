@@ -143,8 +143,68 @@ margin-left:50px;
 
 }
 .Newsletter{
- text-align:justify;
-}
-.Newsletter1{
  text-align: center;
+ width:1100px;
+ height:550px;
+ border:6px outset rgb(255, 253, 248);
+ background:rgb(250, 215, 215);
+ margin-left: 150px;
+ margin-top: 80px;
+ 
+}
+
+.subscribe_now{
+  img{
+    width: 135px;
+    height:72px;
+    margin-left: 380px;
+  }
+  h2{
+    margin-left: 380px;
+
+  }
+  p{
+    margin-left: 300px;
+    text-wrap: wrap;
+    margin-bottom: 5px;
+  }
+}
+
+.subscribe_now {
+  margin-top: 150px;
+  align-items: center;
+  justify-content: center;
+  display: flexbox;
+  border: 2px solid;
+  border-style: groove;
+  background-color: rgba(255, 0, 0, 0.05);
+  border-radius: 16px;
+  padding: 20px;
+  margin-left: 150px;
+  margin-right: 150px;
+
+}
+.subscribe_form {
+  max-width: 648px;
+  height: 72px;
+  width: 100%;
+  margin-left: 340px;
+  box-shadow: 0px 2px 3px 0px rgba(79, 25, 215, 0.24);
+  border-radius: 16px;
+  margin-top: 15px;
+
+}
+  
+
+
+.button {
+  border: none;
+  max-width: 210px;
+  height: 44px;
+  text-transform: uppercase;
+}
+
+
+.btn btn-default{
+  background:#F00;
 }
