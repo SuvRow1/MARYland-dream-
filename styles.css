@@ -1,8 +1,6 @@
 .body{
- margin: 50px 140px 150px 140px;
- padding: 125px;
  font-family: 'Lato', sans-serif;
- background-color: #F5F5F5;
+
  
  
  }
@@ -12,16 +10,34 @@
   position: absolute;
   top: 50%;
   left: 50%;
+
   transform: translate(-50%, -50%);
   color: #FFFFFF;
   font-weight: 800;
   text-align: center;
   border-radius: 10px;
-  background: linear-gradient(180deg, #160538 0%, rgba(20, 2, 56, 0) 10%);
+  background: linear-gradient(180deg, #dccef8 0%, rgba(20, 2, 56, 0) 10%);
   font-size: 48px;
+ 
  
  }
  
+ .banner1-container{
+  margin-left: 150px;
+  margin-right: 300px;
+  margin-top: 52px;
+
+}
+.hny1{
+  margin-top: 50px;
+  font-size: 82px;
+  margin-bottom: 20px;
+}
+.hny2{
+  margin-top: 0px;
+  margin-bottom: 100px;
+  font-size: 62px;
+}
   /* Discount section */
 
  .discount{
@@ -63,6 +79,10 @@
 
 .banner-card{
   position: relative;
+  border: 10px solid #FF0000;
+  border-style: hidden;
+  border-radius: 10ox;
+  border-block:inherit;
 
 }       
 
@@ -120,47 +140,55 @@ margin-left:50px;
 
 .products-container{
  display: flex;
- justify-content:space-evenly;
- flex-direction:row;
+ justify-content:space-around;
+ flex-direction:column;
  flex-flow:wrap;
  width: 100%;
- max-height:fit-content;
  margin-top: 100px;
  flex-wrap: wrap;
- padding: 5px;
+ padding: 50px;
 
  
 }
 
 
 .details-item{
+      h1{
+        margin-top: 80px;
+        margin-left: 50px;
+        padding-bottom: 10px;}
+      h6{
+        margin-left: 48px;
+        font-size: 45px;
+        margin-bottom: 20px;
+        margin-top: 0px;}
+      p{
+        margin-left: 50px;
+        margin-bottom: 50px;
+        margin-top: 0px;
 
- text-align: left;
- text-decoration: solid;
- font-family: Inter;
- margin-left: 50px;
- margin-bottom: 20px;
-
-}
+}}
 .Newsletter{
  text-align: center;
  width:1100px;
  height:550px;
  border:6px outset rgb(255, 253, 248);
  background:rgb(250, 215, 215);
- margin-left: 150px;
+ margin-left: 130px;
  margin-top: 80px;
  
 }
 
 .subscribe_now{
   img{
-    width: 135px;
-    height:72px;
+    width: 150px;
+    height:150px;
     margin-left: 380px;
   }
   h2{
-    margin-left: 380px;
+    margin-left: 300px;
+    font-weight: 800;
+    font-size: 52px;
 
   }
   p{
@@ -177,7 +205,6 @@ margin-left:50px;
   display: flexbox;
   border: 2px solid;
   border-style: groove;
-  background-color: rgba(255, 0, 0, 0.05);
   border-radius: 16px;
   padding: 20px;
   margin-left: 150px;
@@ -188,8 +215,7 @@ margin-left:50px;
   max-width: 648px;
   height: 72px;
   width: 100%;
-  margin-left: 340px;
-  box-shadow: 0px 2px 3px 0px rgba(79, 25, 215, 0.24);
+  margin-left: 330px;
   border-radius: 16px;
   margin-top: 15px;
 
@@ -205,6 +231,71 @@ margin-left:50px;
 }
 
 
-.btn btn-default{
-  background:#F00;
+.container{
+  margin-top: 150px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  width: 100%;
+}
+@media screen and (max-width:700px){
+  .container{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      width: 100%;
+      margin-top: 30px;
+  }
+}
+.event-time{
+  
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+  align-items: center;
+  justify-content: center;
+  border:5px solid #FF0000;
+  border-style:groove;
+  border-radius: 16px;
+  max-width: 1320px;
+  height: 482px;
+  margin-top: 100px;
+  margin-left: 150px;
+  margin-right: 150px;
+  font-size: 32px;
+  font-weight: 600;
+  text-transform: uppercase;
+  background-color:linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
+
+}
+ 
+.span-color{
+  color: #FF0000;
+}
+
+
+.title1{
+  margin-top: 150px;
+  margin-bottom: 10px;
+}
+.title2{
+  margin-top: 0px;
+  margin-bottom: 10px;
+}
+.title3{
+  margin-top: 0px;
+  margin-bottom: 10px;
+}
+.button3{
+  border: 10px solid #FF0000;
+  max-width: 250px;
+  height: 44px;
+  text-transform: uppercase;
+  border-radius: 5px;
+  border-style:none;
+  margin-bottom: 100px;
+  margin-top: 15px;
+  font-size: 20px;
+  background: #FF0000;
+  color: thistle;
 }
