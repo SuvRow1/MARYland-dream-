@@ -1,9 +1,4 @@
-.body{
- font-family: 'Lato', sans-serif;
 
- 
- 
- }
  /* banner header starting  css styles */
 
  .overlay-text{
@@ -23,7 +18,7 @@
  }
  
  .banner1-container{
-  margin-left: 150px;
+  margin-left: 50px;
   margin-right: 300px;
   margin-top: 52px;
 
@@ -139,19 +134,33 @@ margin-left:50px;
 }
 
 .products-container{
- display: flex;
- justify-content:space-around;
- flex-direction:column;
- flex-flow:wrap;
- width: 100%;
- margin-top: 100px;
- flex-wrap: wrap;
- padding: 50px;
+  display: flex;
+  justify-content:space-around;
+  flex-direction:column;
+  flex-flow:wrap;
+  width: 100%;
+  margin-top: 100px;
+  flex-wrap:wrap;
+  padding: 100px;
+  gap: 25px;
+  
+ 
+ 
 
  
 }
-
-
+.products-container h5{
+  color: #FF0000;
+  margin-left: 50px;
+}
+.products-container h2{
+color: #070211;
+font-family: Merriweather;
+font-size: 48px;
+font-weight: 900;
+text-transform: capitalize;
+margin-left: 40px;
+}
 .details-item{
       h1{
         margin-top: 80px;
@@ -298,4 +307,33 @@ margin-left:50px;
   font-size: 20px;
   background: #FF0000;
   color: thistle;
+}
+
+/* footer section */
+
+.footer-address {
+  
+  background-color: black;
+  color: white;
+  bottom: 0;
+  width: 1600px;
+  height: 609px;
+  font-size: 16px;
+}
+footer * {
+  box-sizing: border-box;
+  border: none;
+  outline: none;
+}
+.call{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap:5px;
+}
+.web{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap:5px;
 }
